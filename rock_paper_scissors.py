@@ -21,7 +21,7 @@ def main():
         
         if p1 == npc:
             playerscores["ties"] += 1
-            print(f"You both chose {p1.capitalize()}, that's a tie!")
+            print(f"Computer chose {npc.capitalize()} \n You both chose {p1.capitalize()}, that's a tie!")
         else:
             win = winner(p1, npc)
             if win == True:
